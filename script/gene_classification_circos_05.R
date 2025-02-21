@@ -100,10 +100,5 @@ add_circos_track <- function(data) {
 }
 
 # Add tracks
-# add_circos_track(M4)
-# add_circos_track(M3)
-# add_circos_track(M2)
-# add_circos_track(M1)
-
 
 walk(list(M4, M3, M2, M1), add_circos_track)
