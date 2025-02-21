@@ -9,14 +9,14 @@ The sgRNA design for CRISPR interference (CRISPRi) in this repository follows th
 __Scripts__:
 The scripts used to generate individual figure panels, as well as for data processing and analysis.
 
-__--Deseq2_analysis_from_2fastq2_result_01.R__   This R script is used for CRISPRi-seq data analysis, primarily leveraging the DESeq2 package for differential gene expression analysis between different experimental conditions. The script also generates volcano plots to visualize the results.
+__--Deseq2_analysis_from_2fastq2_result_01.R__ Used the DESeq2 package for differential gene expression analysis between different experimental conditions.
 
-__--Gene_clustering_analysis_02.R__ This R script is designed for identifying and classifying essential genes based on CRISPRi-seq data.
+__--Gene_clustering_analysis_02.R__  Designed for identifying and classifying essential genes based on CRISPRi-seq data.
 
-__--Gene_Essentiality_Visualization_lineplot_03.R__ This R script conducts comprehensive data processing and analysis for clustering results based on log2 Fold Change values across different gene clusters. It integrates multiple data sources, including gene expression data and COG (Cluster of Orthologous Groups) annotations, through a series of preprocessing steps. it visualizes the results by generating detailed line plots, which illustrate the trends of log2 Fold Change values over generations for each cluster, and bar plots that highlight the distribution of COG categories within each gene cluster. 
+__--Gene_Essentiality_Visualization_lineplot_03.R__ Comprehensive data processing and analysis for clustering results based on log2 Fold Change values across different gene clusters. It integrates multiple data sources, including gene expression data and COG (Cluster of Orthologous Groups) annotations, through a series of preprocessing steps. it visualizes the results by generating detailed line plots, which illustrate the trends of log2 Fold Change values over generations for each cluster, and bar plots that highlight the distribution of COG categories within each gene cluster. 
 
-__--Essential_gene_VennPlot.04.R__ The script then generates Venn diagrams to compare gene sets between the current study and previous studies.
+__--Essential_gene_VennPlot.04.R__ Generates Venn diagrams to compare gene sets between the current study and previous studies.
 
-__--gene_classification_circos_05.R__ The script uses the circlize package to plot genomic regions, with custom color coding for genes from various datasets.
+__--gene_classification_circos_05.R__ Uses the circlize package to plot genomic regions, with custom color coding for genes from various datasets.
 
 
