@@ -13,7 +13,7 @@ The scripts used to generate individual figure panels, as well as for data proce
 
 --Gene_clustering_analysis_02.R This R script is designed for identifying and classifying essential genes based on CRISPRi-seq data.
 
---Gene_Essentiality_Visualization_lineplot_03.R This R script conducts comprehensive data processing and analysis for clustering results based on log2 Fold Change values across different gene clusters. It integrates multiple data sources, including gene expression data and COG (Cluster of Orthologous Groups) annotations, through a series of preprocessing steps. it visualizes the results by generating detailed line plots, which illustrate the trends of log2 Fold Change values over generations for each cluster, and bar plots that highlight the distribution of COG categories within each gene cluster. 
+——--Gene_Essentiality_Visualization_lineplot_03.R—— This R script conducts comprehensive data processing and analysis for clustering results based on log2 Fold Change values across different gene clusters. It integrates multiple data sources, including gene expression data and COG (Cluster of Orthologous Groups) annotations, through a series of preprocessing steps. it visualizes the results by generating detailed line plots, which illustrate the trends of log2 Fold Change values over generations for each cluster, and bar plots that highlight the distribution of COG categories within each gene cluster. 
 
 --Essential_gene_VennPlot.04.R The script then generates Venn diagrams to compare gene sets between the current study and previous studies.
 
