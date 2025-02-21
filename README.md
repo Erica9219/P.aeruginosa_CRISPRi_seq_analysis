@@ -1,7 +1,7 @@
-# CRISPRi-seq for Gallium Synergy Target Identification in Pseudomonas aeruginosa
+# CRISPRi-seq for Essential Gene Identification in Pseudomonas aeruginosa
 Author: Tingting Zhang [zhangtingting9218@163.com]
 
-This repository contains an R-based software package developed for the analysis of CRISPR interference (CRISPRi) and genome-wide screening sequencing data in Pseudomonas aeruginosa. The method enables the quantitative measurement of gene essentiality and the identification of genes that interact with non-antibiotic therapies, such as gallium.
+This repository contains an R-based software package developed for the analysis of CRISPR interference (CRISPRi) and genome-wide screening sequencing data in Pseudomonas aeruginosa. 
 
 __sgRNA Design__:
 The sgRNA design for CRISPR interference (CRISPRi) in this repository follows the pipeline outlined in the CRISPRi-seq repository (https://github.com/vincentdebakker/CRISPRi-seq). This pipeline automates the design of highly specific and efficient single-guide RNAs (sgRNAs) for gene knockdown in bacterial genomes.
