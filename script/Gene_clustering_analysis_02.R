@@ -28,7 +28,7 @@ process_res_raw_files <- function(file_pattern, n_files,FoldChange,Padj ) {
     set1 <- read_excel(xlsx_files[i]) %>%
       mutate(group = case_when(
         log2FoldChange >= FoldChange & padj <= Padj ~ "UP",  # Mark up-regulated genes
-        log2FoldChange <= FoldChange & padj <=  Padj ~ "DOWN",  # Mark down-regulated genes
+        log2FoldChange <= -FoldChange & padj <=  Padj ~ "DOWN",  # Mark down-regulated genes
         TRUE ~ "NOT_CHANGE"  # Mark genes with no significant change
       ))
     
